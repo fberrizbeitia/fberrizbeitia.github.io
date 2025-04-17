@@ -1,0 +1,23 @@
+{
+    "headerimage":"assets/header.jpg",
+    "title":"Lina López de Aramburu - Zulima",
+    "description":"<p>Zulima, seudónimo de Lina López de Aramburu, fue una poeta, novelista y dramaturga venezolana, nacida en Caracas en una fecha todavía no determinada de mediados del siglo XIX y fallecida en los albores del siglo XX. Zulima fue una de las primeras novelistas femeninas venezolanas,​ así como la primera dramaturga femenina de este país.</p>",
+    "collectionURL":"data.json",
+
+    "indexes":[
+        {
+            "path":"swallow_id",
+            "filter":"no"
+        },
+        {
+            "path":"Item_Description/title",
+            "filter":"no"
+        },
+        {
+            "path":"Item_Description/genre",
+            "filter":"yes",
+            "label":"Tipo de documento"
+        }
+         
+    ]
+}
